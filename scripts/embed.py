@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import uuid
 
 
-pinecone.init(api_key='3172ab22-d119-46f2-acb2-9ab0122441a5',
+pinecone.init(api_key='YOUR API KEY HERE',
               environment='us-east4-gcp')
 index = pinecone.Index('law-docs')
 
